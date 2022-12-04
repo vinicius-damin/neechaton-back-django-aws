@@ -29,7 +29,7 @@ class VoteClassifier(ClassifierI):
         for c in self.classifiers:
             v=c.classify(features)
             votes.append(v)
-        print(votes)
+        #print(votes)
         choice_votes=votes.count(mode(votes))
         conf=choice_votes/len(votes)
         #temos também o valor de confiança de nossa predição
