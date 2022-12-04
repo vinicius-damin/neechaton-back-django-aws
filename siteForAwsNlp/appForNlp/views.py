@@ -16,10 +16,10 @@ def index(request):
 
         if inp_value == 'ADD': # Adicionar todos os dados da Deloitte na base de dados
             
-            path = os.getcwd() + '\\appForNlp\\DeloitteCSV'
+            path = os.getcwd() + '/appForNlp/DeloitteCSV'
             glued_data = pd.DataFrame()
             for file_name in os.listdir(path):
-                x = pd.read_csv(path + '\\' + file_name, index_col=0, low_memory=False)
+                x = pd.read_csv(path + '/' + file_name, index_col=0, low_memory=False)
                 glued_data = pd.concat([glued_data,x],axis=0)
             
             for index, row in glued_data.iterrows():
