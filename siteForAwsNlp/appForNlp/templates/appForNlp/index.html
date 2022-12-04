@@ -2,12 +2,30 @@
 <h3>Neecathon - Voe - 2022</h3> <br>
 
 <form action="/appForNlp/nlp_result" method="get">
-    
     <label for="results">Write a feedback about your company: </label>
     <input id="results" type="text" name="comentario" value="I liked very much...">
-    <input id="ids" type="number" name="id_pessoa" value="0">
+    <input id="ids" type="text" name="id_pessoa" value="management">
+    <input id="day" type="text" name="day" value="4">
+    <input id="month" type="text" name="month" value="12">
+    <input id="year" type="text" name="year" value="2022">
     <input type="submit" value="Enviar">
 </form> 
 
+
 <p>Next, there will be made an <strong>Aspect Based Sentiment Analysis</strong>, which gives a positive or negative value to different parts of the phrase</p>
 <p>There will also be done a <strong>Sentiment analysis</strong> utilizing Machine Learning</p>
+
+<br>
+<br>
+
+<form action="/appForNlp" method="get">
+    <label for="add">To add the 10.000 values from Delloite to the database press: </label>
+    <input id="results" type="text" name="action" value="ADD">
+</form> 
+
+<form action="/appForNlp" method="get">
+    <label for="remove">To remove ALL but 1 value from the database press: </label>
+    <input id="results" type="text" name="action" value="DELETE">
+</form> 
+
+
