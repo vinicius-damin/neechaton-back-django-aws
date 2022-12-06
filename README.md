@@ -26,5 +26,3 @@ $ python3
 # Special Thanks
 
 We, as a team from Brazil, are very grateful to NEEC not only for being welcoming to us, but also for the amazing experience this Hackaton was, it really showed us what the experience of start-up can be!
-
-
