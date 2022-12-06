@@ -59,7 +59,7 @@ def nlp_result(request):
         inp_value = request.GET.get('comentario', 'This is a default value')
         id_pessoa = request.GET.get('id_pessoa', '0')
         inp_day = request.GET.get('day', '04')
-        inp_month = request.GET.get('month', '12')
+        inp_month = request.GET.get('month', 'Dec')
         inp_year = request.GET.get('year', '2022')
       
         #cria o dado no molde do modelo e salva ele na base de dados
